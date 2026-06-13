@@ -1,3 +1,10 @@
+import catalogKebaya from './assets/images/catalog_kebaya_1779958284408.png';
+import artisanCraft from './assets/images/artisan_craft_1779958321622.png';
+import catalogKaftan from './assets/images/catalog_kaftan_1779958302734.png';
+import fashionHero from './assets/images/fashion_hero_1779958266662.png';
+import gpt1 from './assets/images/GPT1.png';
+import gpt2 from './assets/images/GPT2.png';
+import gpt3 from './assets/images/GPT3.png';
 import { Product, Testimonial, InstagramPost } from './types';
 
 export const PRODUCTS: Product[] = [
@@ -356,10 +363,7 @@ export const PRODUCTS: Product[] = [
       'Timeless elegant silhouette',
       'Exclusively custom tailored upon request'
     ],
-    images: [
-      '/src/assets/images/GPT1.png',
-      '/src/assets/images/artisan_craft_1779958321622.png'
-    ],
+    images: ['/GPT1.png', artisanCraft],
     sizes: ['Custom'],
     featured: true,
     isNew: true
@@ -377,9 +381,7 @@ export const PRODUCTS: Product[] = [
       'Dry clean only'
     ],
     images: [
-      '/src/assets/images/GPT2.png',
-      '/src/assets/images/catalog_kebaya_1779958284408.png'
-    ],
+      '/GPT2.png', catalogKebaya],
     sizes: ['Custom'],
     featured: true,
     isNew: true
@@ -396,10 +398,7 @@ export const PRODUCTS: Product[] = [
       'Subtle contemporary contouring',
       'Dry clean only'
     ],
-    images: [
-      '/src/assets/images/GPT3.png',
-      '/src/assets/images/catalog_kebaya_1779958284408.png'
-    ],
+    images: ['/GPT3.png', catalogKebaya],
     sizes: ['Custom'],
     featured: true,
     isNew: true
