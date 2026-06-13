@@ -1,0 +1,6 @@
+{
+  "name": "Benang Kain Embroidery",
+  "description": "Boutique fashion website specializing in premium exclusive luxury Indonesian embroidered fabrics, Kebayas, Kaftans, and couture.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
