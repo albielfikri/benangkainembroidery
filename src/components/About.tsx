@@ -92,7 +92,7 @@ Usaha ini siap menjadi pilihan terbaik untuk kebutuhan bordir manual di semua ka
           <div className="lg:col-span-6" id="about-craftsmanship-images">
             <div className="relative aspect-[4/3] bg-luxury-cream border border-gold-100/30 overflow-hidden shadow-lg group">
               <img
-                src="/src/assets/images/artisan_craft_1779958321622.png"
+                src="/images/about/artisan_craft_1779958321622.png"
                 alt="Embroidery craftsmanship"
                 referrerPolicy="no-referrer"
                 className="w-full h-full object-cover object-center transition-transform duration-700 ease-out group-hover:scale-103"

@@ -15,7 +15,7 @@ export default function Hero({ setCurrentPage }: HeroProps) {
       {/* Background Campaign Image - Slow Scale Animation */}
       <div className="absolute inset-0 z-0">
         <motion.img
-          src="/src/assets/images/fashion_hero_1779958266662.png"
+          src="/images/hero/fashion_hero_1779958266662.png"
           alt="Benang Kain Campaign"
           className="w-full h-full object-cover object-center opacity-65 scale-105"
           initial={{ scale: 1.15, opacity: 0 }}

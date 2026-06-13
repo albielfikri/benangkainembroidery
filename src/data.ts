@@ -1,10 +1,3 @@
-import catalogKebaya from './assets/images/catalog_kebaya_1779958284408.png';
-import artisanCraft from './assets/images/artisan_craft_1779958321622.png';
-import catalogKaftan from './assets/images/catalog_kaftan_1779958302734.png';
-import fashionHero from './assets/images/fashion_hero_1779958266662.png';
-import gpt1 from './assets/images/GPT1.png';
-import gpt2 from './assets/images/GPT2.png';
-import gpt3 from './assets/images/GPT3.png';
 import { Product, Testimonial, InstagramPost } from './types';
 
 export const PRODUCTS: Product[] = [
@@ -23,8 +16,8 @@ export const PRODUCTS: Product[] = [
       'Dry Clean only'
     ],
     images: [
-      '/src/assets/images/catalog_kebaya_1779958284408.png',
-      '/src/assets/images/artisan_craft_1779958321622.png',
+      '/images/catalog/catalog_kebaya_1779958284408.png',
+      '/images/about/artisan_craft_1779958321622.png',
       'https://images.unsplash.com/photo-1617137968427-85924c800a22?q=80&w=600'
     ],
     sizes: ['S', 'M', 'L', 'XL', 'Custom'],
@@ -45,8 +38,8 @@ export const PRODUCTS: Product[] = [
       'Designed and handmade ethically in West Java'
     ],
     images: [
-      '/src/assets/images/catalog_kaftan_1779958302734.png',
-      '/src/assets/images/artisan_craft_1779958321622.png',
+      '/images/catalog/catalog_kaftan_1779958302734.png',
+      '/images/about/artisan_craft_1779958321622.png',
       'https://images.unsplash.com/photo-1595777457583-95e059d581b8?q=80&w=600'
     ],
     sizes: ['One Size', 'CustomSize'],
@@ -67,7 +60,7 @@ export const PRODUCTS: Product[] = [
       'Breathable, lightweight, yet retains pristine structure'
     ],
     images: [
-      '/src/assets/images/fashion_hero_1779958266662.png',
+      '/images/hero/fashion_hero_1779958266662.png',
       'https://images.unsplash.com/photo-1509631179647-0177331693ae?q=80&w=600',
       'https://images.unsplash.com/photo-1490481651871-ab68de25d43d?q=80&w=600'
     ],
@@ -90,7 +83,7 @@ export const PRODUCTS: Product[] = [
     ],
     images: [
       'https://images.unsplash.com/photo-1509631179647-0177331693ae?q=80&w=600',
-      '/src/assets/images/artisan_craft_1779958321622.png',
+      '/images/about/artisan_craft_1779958321622.png',
       'https://images.unsplash.com/photo-1490481651871-ab68de25d43d?q=80&w=600'
     ],
     sizes: ['S', 'M', 'L', 'XL', 'Custom'],
@@ -363,7 +356,10 @@ export const PRODUCTS: Product[] = [
       'Timeless elegant silhouette',
       'Exclusively custom tailored upon request'
     ],
-    images: ['/GPT1.png', artisanCraft],
+    images: [
+      '/images/catalog/GPT1.png',
+      '/images/about/artisan_craft_1779958321622.png'
+    ],
     sizes: ['Custom'],
     featured: true,
     isNew: true
@@ -381,7 +377,9 @@ export const PRODUCTS: Product[] = [
       'Dry clean only'
     ],
     images: [
-      '/GPT2.png', catalogKebaya],
+      '/images/catalog/GPT2.png',
+      '/images/catalog/catalog_kebaya_1779958284408.png'
+    ],
     sizes: ['Custom'],
     featured: true,
     isNew: true
@@ -398,7 +396,10 @@ export const PRODUCTS: Product[] = [
       'Subtle contemporary contouring',
       'Dry clean only'
     ],
-    images: ['/GPT3.png', catalogKebaya],
+    images: [
+      '/images/catalog/GPT3.png',
+      '/images/catalog/catalog_kebaya_1779958284408.png'
+    ],
     sizes: ['Custom'],
     featured: true,
     isNew: true
@@ -443,28 +444,28 @@ export const TESTIMONIALS: Testimonial[] = [
 export const INSTAGRAM_POSTS: InstagramPost[] = [
   {
     id: 'ig-1',
-    imageUrl: '/src/assets/images/catalog_kebaya_1779958284408.png',
+    imageUrl: '/images/catalog/catalog_kebaya_1779958284408.png',
     likes: '1.2k',
     comments: '42',
     link: 'https://www.instagram.com/benangkainembroidery_/'
   },
   {
     id: 'ig-2',
-    imageUrl: '/src/assets/images/catalog_kaftan_1779958302734.png',
+    imageUrl: '/images/catalog/catalog_kaftan_1779958302734.png',
     likes: '890',
     comments: '18',
     link: 'https://www.instagram.com/benangkainembroidery_/'
   },
   {
     id: 'ig-3',
-    imageUrl: '/src/assets/images/fashion_hero_1779958266662.png',
+    imageUrl: '/images/hero/fashion_hero_1779958266662.png',
     likes: '2.5k',
     comments: '110',
     link: 'https://www.instagram.com/benangkainembroidery_/'
   },
   {
     id: 'ig-4',
-    imageUrl: '/src/assets/images/artisan_craft_1779958321622.png',
+    imageUrl: '/images/about/artisan_craft_1779958321622.png',
     likes: '1.7k',
     comments: '64',
     link: 'https://www.instagram.com/benangkainembroidery_/'
