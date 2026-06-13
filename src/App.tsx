@@ -217,7 +217,7 @@ export default function App() {
                     {/* Visual block */}
                     <div className="relative aspect-video sm:aspect-square md:aspect-video overflow-hidden border border-gold-200/40 rounded-sm">
                       <img
-                        src="/images/artisan_craft_1779958321622.png"
+                        src="/images/about/artisan_craft_1779958321622.png"
                         alt="Our craft hands"
                         referrerPolicy="no-referrer"
                         className="w-full h-full object-cover object-center"
