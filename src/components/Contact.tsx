@@ -38,7 +38,7 @@ export default function Contact() {
   return (
     <section id="contact-us-view" className="bg-gold-50 py-24 sm:py-32">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        
+
         {/* Header */}
         <div className="text-center max-w-2xl mx-auto mb-16" id="contact-header">
           <span className="font-sans text-[10px] sm:text-xs tracking-[0.35em] text-gold-500 uppercase font-light inline-block mb-3">
@@ -54,7 +54,7 @@ export default function Contact() {
         </div>
 
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 lg:gap-16">
-          
+
           {/* LEFT COLUMN: Boutique Details Board */}
           <div className="lg:col-span-5 space-y-8" id="contact-details-panel">
             <div className="bg-luxury-cream border border-gold-100/40 p-8 rounded-sm space-y-6">
@@ -142,7 +142,7 @@ export default function Contact() {
             {/* Interactive Google Map Display Container */}
             <div className="relative aspect-video bg-gold-50 rounded-sm border border-white/10 flex items-center justify-center overflow-hidden" id="interactive-showroom-map">
               <iframe
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3966.5292419266155!2d106.9922262!3d-6.193657799999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e698bfaea134bd9%3A0xc3fde9b533a1e948!2sRuko%20Burgundy%20Commercial!5e0!3m2!1sen!2sid!4v1718296316279!5m2!1sen!2sid"
+                src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15865.266876225509!2d107.013289!3d-6.2219026!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e698fc8095a89bf%3A0x4f327b3af9ce37d2!2sBenang%20Kain%20Embroidery!5e0!3m2!1sen!2sid!4v1781367495034!5m2!1sen!2sid"
                 className="absolute inset-0 w-full h-full grayscale opacity-80 hover:grayscale-0 hover:opacity-100 transition-all duration-500"
                 style={{ border: 0 }}
                 allowFullScreen={false}
@@ -175,7 +175,7 @@ export default function Contact() {
                 </motion.div>
               ) : (
                 <form onSubmit={handleSubmit} className="space-y-6" id="consultation-form">
-                  
+
                   {/* Row 1: Name & Email */}
                   <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
                     <div className="space-y-2">

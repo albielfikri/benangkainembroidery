@@ -343,6 +343,66 @@ export const PRODUCTS: Product[] = [
     sizes: ['S', 'M', 'L', 'Custom'],
     featured: false,
     isNew: false
+  },
+  {
+    id: 'prod-17',
+    name: 'Kusuma GPT Kebaya Edition 1',
+    price: 3500000,
+    category: 'Kebaya',
+    description: 'An exclusive new addition featuring intricate hand-stitching with premium materials. This Kebaya offers a regal look perfect for the most special occasions.',
+    details: [
+      'Bespoke manual embroidery craftsmanship',
+      'Ultra-premium translucent fabric',
+      'Timeless elegant silhouette',
+      'Exclusively custom tailored upon request'
+    ],
+    images: [
+      '/src/assets/images/GPT1.png',
+      '/src/assets/images/artisan_craft_1779958321622.png'
+    ],
+    sizes: ['Custom'],
+    featured: true,
+    isNew: true
+  },
+  {
+    id: 'prod-18',
+    name: 'Kusuma GPT Kebaya Edition 2',
+    price: 3750000,
+    category: 'Kebaya',
+    description: 'A masterpiece of modern Nusantara design. The exquisite detailing on this Kebaya highlights the dedication to our slow fashion ethos.',
+    details: [
+      'Exquisite signature floral embroidery patterns',
+      'High-quality imported silk inner lining',
+      'Sophisticated high neck design',
+      'Dry clean only'
+    ],
+    images: [
+      '/src/assets/images/GPT2.png',
+      '/src/assets/images/catalog_kebaya_1779958284408.png'
+    ],
+    sizes: ['Custom'],
+    featured: true,
+    isNew: true
+  },
+  {
+    id: 'prod-19',
+    name: 'Kusuma GPT Kebaya Edition 3',
+    price: 3850000,
+    category: 'Kebaya',
+    description: 'A brilliant contemporary interpretation of the classic Nusantara Kebaya, crafted with love and extreme attention to detail for a truly stunning look.',
+    details: [
+      'Exquisite and highly detailed modern embroidery',
+      'Luxurious breathable fabric',
+      'Subtle contemporary contouring',
+      'Dry clean only'
+    ],
+    images: [
+      '/src/assets/images/GPT3.png',
+      '/src/assets/images/catalog_kebaya_1779958284408.png'
+    ],
+    sizes: ['Custom'],
+    featured: true,
+    isNew: true
   }
 ];
 

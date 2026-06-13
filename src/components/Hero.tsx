@@ -24,7 +24,7 @@ export default function Hero({ setCurrentPage }: HeroProps) {
           referrerPolicy="no-referrer"
         />
         {/* Deep luxurious vignette overlay */}
-        <div className="absolute inset-0 bg-gradient-to-t from-luxury-black via-luxury-black/30 to-luxury-black/50" />
+        <div className="absolute inset-0 bg-gradient-to-t from-black via-black/50 to-black/30" />
       </div>
 
       {/* Hero Content */}
@@ -54,12 +54,11 @@ export default function Hero({ setCurrentPage }: HeroProps) {
           <span className="italic font-light text-gold-400">Gaya Kontemporer</span>
         </motion.h2>
 
-        {/* Short clean tagline */}
         <motion.p
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
           transition={{ delay: 1.0, duration: 1.0 }}
-          className="font-sans text-xs sm:text-sm md:text-base text-gold-400/85 tracking-widest font-light max-w-2xl mx-auto mb-10 leading-relaxed md:leading-loose uppercase"
+          className="font-sans text-xs sm:text-sm md:text-base text-luxury-black tracking-widest font-medium max-w-2xl mx-auto mb-10 leading-relaxed md:leading-loose uppercase drop-shadow-md"
         >
           Eksplorasi mahakarya bordir buatan tangan asli Summarecon Bekasi. <br />
           Dibuat dengan bahan premium secara terbatas untuk keanggunan sejati Anda.
