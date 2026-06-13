@@ -4,7 +4,7 @@ import tailwindcss from '@tailwindcss/vite'
 import path from 'path'
 
 export default defineConfig({
-  base: '/benangkainembroidery/',
+  base: './', // <-- UBAH BAGIAN INI MENJADI ARTIKEL TITIK DAN GARIS MIRING
   plugins: [react(), tailwindcss()],
   resolve: {
     alias: {
