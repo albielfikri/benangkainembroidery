@@ -17,8 +17,9 @@ export const PRODUCTS: Product[] = [
     ],
     images: [
       '/images/catalog/catalog_kebaya_1779958284408.png',
-      '/images/about/artisan_craft_1779958321622.png',
-      'https://images.unsplash.com/photo-1617137968427-85924c800a22?q=80&w=600'
+      '/images/catalog/GPT2.png',
+      '/images/catalog/GPT3.png',
+      '/images/catalog/GPT1.png'
     ],
     sizes: ['S', 'M', 'L', 'XL', 'Custom'],
     featured: true,
@@ -39,8 +40,9 @@ export const PRODUCTS: Product[] = [
     ],
     images: [
       '/images/catalog/catalog_kaftan_1779958302734.png',
-      '/images/about/artisan_craft_1779958321622.png',
-      'https://images.unsplash.com/photo-1595777457583-95e059d581b8?q=80&w=600'
+      '/images/catalog/GPT2.png',
+      '/images/catalog/GPT3.png',
+      '/images/catalog/GPT1.png'
     ],
     sizes: ['One Size', 'CustomSize'],
     featured: true,
@@ -61,8 +63,9 @@ export const PRODUCTS: Product[] = [
     ],
     images: [
       '/images/hero/GPT1.png',
-      'https://images.unsplash.com/photo-1509631179647-0177331693ae?q=80&w=600',
-      'https://images.unsplash.com/photo-1490481651871-ab68de25d43d?q=80&w=600'
+      '/images/catalog/GPT2.png',
+      '/images/catalog/GPT3.png',
+      '/images/catalog/GPT1.png'
     ],
     sizes: ['S', 'M', 'L', 'Custom'],
     featured: true,
@@ -82,9 +85,10 @@ export const PRODUCTS: Product[] = [
       'Front hook closure with subtle concealed plaque buttoning'
     ],
     images: [
-      'https://images.unsplash.com/photo-1509631179647-0177331693ae?q=80&w=600',
       '/images/about/artisan_craft_1779958321622.png',
-      'https://images.unsplash.com/photo-1490481651871-ab68de25d43d?q=80&w=600'
+      '/images/catalog/GPT2.png',
+      '/images/catalog/GPT3.png',
+      '/images/catalog/GPT1.png'
     ],
     sizes: ['S', 'M', 'L', 'XL', 'Custom'],
     featured: false,
@@ -104,9 +108,9 @@ export const PRODUCTS: Product[] = [
       'Highly breathable textured linen-silk feels cooler on skin'
     ],
     images: [
-      'https://images.unsplash.com/photo-1620799140408-edc6dcb6d633?q=80&w=600',
-      'https://images.unsplash.com/photo-1595777457583-95e059d581b8?q=80&w=600',
-      'https://images.unsplash.com/photo-1617137968427-85924c800a22?q=80&w=600'
+      '/images/catalog/GPT2.png',
+      '/images/catalog/GPT3.png',
+      '/images/catalog/GPT1.png'
     ],
     sizes: ['S', 'M', 'L', 'Custom'],
     featured: false,
@@ -126,9 +130,9 @@ export const PRODUCTS: Product[] = [
       'Extremely versatile to layer with solid silk underslips or trousers'
     ],
     images: [
-      'https://images.unsplash.com/photo-1595777457583-95e059d581b8?q=80&w=600',
-      'https://images.unsplash.com/photo-1620799140408-edc6dcb6d633?q=80&w=600',
-      'https://images.unsplash.com/photo-1509631179647-0177331693ae?q=80&w=600'
+      '/images/catalog/GPT2.png',
+      '/images/catalog/GPT3.png',
+      '/images/catalog/GPT1.png'
     ],
     sizes: ['S', 'M', 'L', 'XL', 'Custom'],
     featured: false,
@@ -148,8 +152,9 @@ export const PRODUCTS: Product[] = [
       'Dry clean or gentle hand wash'
     ],
     images: [
-      'https://images.unsplash.com/photo-1490481651871-ab68de25d43d?q=80&w=600',
-      'https://images.unsplash.com/photo-1617137968427-85924c800a22?q=80&w=600'
+      '/images/catalog/GPT2.png',
+      '/images/catalog/GPT3.png',
+      '/images/catalog/GPT1.png'
     ],
     sizes: ['S', 'M', 'L', 'XL'],
     featured: false,
@@ -169,8 +174,9 @@ export const PRODUCTS: Product[] = [
       'Dry Clean only'
     ],
     images: [
-      'https://images.unsplash.com/photo-1595777457583-95e059d581b8?q=80&w=600',
-      'https://images.unsplash.com/photo-1509631179647-0177331693ae?q=80&w=600'
+      '/images/catalog/GPT2.png',
+      '/images/catalog/GPT3.png',
+      '/images/catalog/GPT1.png'
     ],
     sizes: ['S', 'M', 'L', 'Custom'],
     featured: true,
@@ -190,8 +196,9 @@ export const PRODUCTS: Product[] = [
       'Easy care and wrinkle resistant'
     ],
     images: [
-      'https://images.unsplash.com/photo-1620799140408-edc6dcb6d633?q=80&w=600',
-      'https://images.unsplash.com/photo-1490481651871-ab68de25d43d?q=80&w=600'
+      '/images/catalog/GPT2.png',
+      '/images/catalog/GPT3.png',
+      '/images/catalog/GPT1.png'
     ],
     sizes: ['One Size', 'CustomSize'],
     featured: false,
@@ -211,8 +218,9 @@ export const PRODUCTS: Product[] = [
       'Designed for weddings and formal gatherings'
     ],
     images: [
-      'https://images.unsplash.com/photo-1617137968427-85924c800a22?q=80&w=600',
-      'https://images.unsplash.com/photo-1595777457583-95e059d581b8?q=80&w=600'
+      '/images/catalog/GPT2.png',
+      '/images/catalog/GPT3.png',
+      '/images/catalog/GPT1.png'
     ],
     sizes: ['One Size', 'CustomSize'],
     featured: false,
@@ -232,8 +240,9 @@ export const PRODUCTS: Product[] = [
       'Highly breathable and elegant drape'
     ],
     images: [
-      'https://images.unsplash.com/photo-1509631179647-0177331693ae?q=80&w=600',
-      'https://images.unsplash.com/photo-1620799140408-edc6dcb6d633?q=80&w=600'
+      '/images/catalog/GPT2.png',
+      '/images/catalog/GPT3.png',
+      '/images/catalog/GPT1.png'
     ],
     sizes: ['S', 'M', 'L', 'XL', 'Custom'],
     featured: false,
@@ -253,8 +262,9 @@ export const PRODUCTS: Product[] = [
       'Strictly dry clean only'
     ],
     images: [
-      'https://images.unsplash.com/photo-1490481651871-ab68de25d43d?q=80&w=600',
-      'https://images.unsplash.com/photo-1595777457583-95e059d581b8?q=80&w=600'
+      '/images/catalog/GPT2.png',
+      '/images/catalog/GPT3.png',
+      '/images/catalog/GPT1.png'
     ],
     sizes: ['S', 'M', 'L', 'XL', 'Custom'],
     featured: true,
@@ -274,8 +284,9 @@ export const PRODUCTS: Product[] = [
       'Perfect for tropical layering'
     ],
     images: [
-      'https://images.unsplash.com/photo-1595777457583-95e059d581b8?q=80&w=600',
-      'https://images.unsplash.com/photo-1617137968427-85924c800a22?q=80&w=600'
+      '/images/catalog/GPT2.png',
+      '/images/catalog/GPT3.png',
+      '/images/catalog/GPT1.png'
     ],
     sizes: ['S', 'M', 'L'],
     featured: false,
@@ -295,8 +306,9 @@ export const PRODUCTS: Product[] = [
       'Machine washable on gentle cycle'
     ],
     images: [
-      'https://images.unsplash.com/photo-1620799140408-edc6dcb6d633?q=80&w=600',
-      'https://images.unsplash.com/photo-1509631179647-0177331693ae?q=80&w=600'
+      '/images/catalog/GPT2.png',
+      '/images/catalog/GPT3.png',
+      '/images/catalog/GPT1.png'
     ],
     sizes: ['S', 'M', 'L', 'Custom'],
     featured: false,
@@ -316,8 +328,9 @@ export const PRODUCTS: Product[] = [
       'A true statement piece for formal office wear or dinners'
     ],
     images: [
-      'https://images.unsplash.com/photo-1509631179647-0177331693ae?q=80&w=600',
-      'https://images.unsplash.com/photo-1490481651871-ab68de25d43d?q=80&w=600'
+      '/images/catalog/GPT2.png',
+      '/images/catalog/GPT3.png',
+      '/images/catalog/GPT1.png'
     ],
     sizes: ['S', 'M', 'L', 'XL'],
     featured: true,
@@ -337,8 +350,9 @@ export const PRODUCTS: Product[] = [
       'Requires delicate care and dry cleaning'
     ],
     images: [
-      'https://images.unsplash.com/photo-1617137968427-85924c800a22?q=80&w=600',
-      'https://images.unsplash.com/photo-1620799140408-edc6dcb6d633?q=80&w=600'
+      '/images/catalog/GPT2.png',
+      '/images/catalog/GPT3.png',
+      '/images/catalog/GPT1.png'
     ],
     sizes: ['S', 'M', 'L', 'Custom'],
     featured: false,
