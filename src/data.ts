@@ -60,7 +60,7 @@ export const PRODUCTS: Product[] = [
       'Breathable, lightweight, yet retains pristine structure'
     ],
     images: [
-      '/images/hero/fashion_hero_1779958266662.png',
+      '/images/hero/GPT1.png',
       'https://images.unsplash.com/photo-1509631179647-0177331693ae?q=80&w=600',
       'https://images.unsplash.com/photo-1490481651871-ab68de25d43d?q=80&w=600'
     ],
