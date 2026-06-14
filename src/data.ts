@@ -418,6 +418,46 @@ export const PRODUCTS: Product[] = [
     featured: true,
     isNew: true
   }
+  {
+    id: 'prod-20',
+    name: 'Kusuma GPT Kebaya Edition 3',
+    price: 3850000,
+    category: 'Kebaya',
+    description: 'A brilliant contemporary interpretation of the classic Nusantara Kebaya, crafted with love and extreme attention to detail for a truly stunning look.',
+    details: [
+      'Exquisite and highly detailed modern embroidery',
+      'Luxurious breathable fabric',
+      'Subtle contemporary contouring',
+      'Dry clean only'
+    ],
+    images: [
+      '/images/catalog/GPT2.png',
+      '/images/catalog/catalog_kebaya_1779958284408.png'
+    ],
+    sizes: ['Custom'],
+    featured: true,
+    isNew: true
+  }
+  {
+    id: 'prod-21',
+    name: 'Kusuma GPT Kebaya Edition 3',
+    price: 3850000,
+    category: 'Kebaya',
+    description: 'A brilliant contemporary interpretation of the classic Nusantara Kebaya, crafted with love and extreme attention to detail for a truly stunning look.',
+    details: [
+      'Exquisite and highly detailed modern embroidery',
+      'Luxurious breathable fabric',
+      'Subtle contemporary contouring',
+      'Dry clean only'
+    ],
+    images: [
+      '/images/catalog/GPT1.png',
+      '/images/catalog/catalog_kebaya_1779958284408.png'
+    ],
+    sizes: ['Custom'],
+    featured: true,
+    isNew: true
+  }
 ];
 
 export const TESTIMONIALS: Testimonial[] = [
