@@ -417,7 +417,7 @@ export const PRODUCTS: Product[] = [
     sizes: ['Custom'],
     featured: true,
     isNew: true
-  }
+  },
   {
     id: 'prod-20',
     name: 'Kusuma GPT Kebaya Edition 3',
@@ -437,7 +437,7 @@ export const PRODUCTS: Product[] = [
     sizes: ['Custom'],
     featured: true,
     isNew: true
-  }
+  },
   {
     id: 'prod-21',
     name: 'Kusuma GPT Kebaya Edition 3',
@@ -457,7 +457,7 @@ export const PRODUCTS: Product[] = [
     sizes: ['Custom'],
     featured: true,
     isNew: true
-  }
+  },
 ];
 
 export const TESTIMONIALS: Testimonial[] = [
